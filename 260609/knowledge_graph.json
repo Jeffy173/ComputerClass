@@ -1,0 +1,294 @@
+{
+    "chapter_name": "三打白骨精",
+    "chapter_full_title": "尸魔三戏唐三藏 圣僧恨逐美猴王",
+    "chapter_number": 27,
+    "description": "白骨精三次变化人形想吃唐僧肉，孙悟空三次识破并打死化身，唐僧误以为悟空滥杀无辜，听信八戒谗言，最终驱逐孙悟空。",
+    "characters": [
+        {
+            "name": "唐僧",
+            "alias": ["三藏法师"],
+            "species": "人类",
+            "identity": ["取经团队领导"],
+            "personality": ["慈悲", "固执", "易受蒙蔽"],
+            "chapter_role": "主要角色",
+            "groups": ["取经团队", "佛教体系"]
+        },
+        {
+            "name": "孙悟空",
+            "alias": ["行者", "猴王"],
+            "species": "灵明石猴",
+            "identity": ["取经团队大弟子"],
+            "personality": ["机智", "忠诚", "性急"],
+            "chapter_role": "主要角色",
+            "groups": ["取经团队"]
+        },
+        {
+            "name": "猪八戒",
+            "alias": ["八戒", "呆子"],
+            "species": "猪妖",
+            "identity": ["天蓬元帅转世", "取经团队二弟子"],
+            "personality": ["贪吃", "好色", "爱挑唆"],
+            "chapter_role": "主要角色",
+            "groups": ["取经团队"]
+        },
+        {
+            "name": "沙僧",
+            "alias": ["沙和尚"],
+            "species": "河妖",
+            "identity": ["卷帘大将转世", "取经团队三弟子"],
+            "personality": ["忠厚", "老实", "少言寡语"],
+            "chapter_role": "配角",
+            "groups": ["取经团队"]
+        },
+        {
+            "name": "白骨精",
+            "alias": ["尸魔", "白骨夫人"],
+            "species": "骷髅精",
+            "identity": ["白骨洞首领", "当地妖怪头目"],
+            "personality": ["狡猾", "善变化"],
+            "chapter_role": "主要反派",
+            "groups": ["白骨洞势力"]
+        },
+        {
+            "name": "村姑",
+            "alias": ["少女", "白骨精第一次变化"],
+            "species": "幻象",
+            "identity": ["白骨精化身"],
+            "personality": ["假可怜"],
+            "chapter_role": "反派化身",
+            "groups": ["白骨精化身"]
+        },
+        {
+            "name": "老妇人",
+            "alias": ["白骨精第二次变化"],
+            "species": "幻象",
+            "identity": ["白骨精化身"],
+            "personality": ["假悲痛"],
+            "chapter_role": "反派化身",
+            "groups": ["白骨精化身"]
+        },
+        {
+            "name": "老公公",
+            "alias": ["白骨精第三次变化"],
+            "species": "幻象",
+            "identity": ["白骨精化身"],
+            "personality": ["假慈祥"],
+            "chapter_role": "反派化身",
+            "groups": ["白骨精化身"]
+        },
+        {
+            "name": "金蝉子",
+            "alias": [],
+            "species": "佛子",
+            "identity": ["如来弟子", "唐僧前身"],
+            "personality": ["虔诚"],
+            "chapter_role": "背景角色",
+            "groups": ["佛教体系"]
+        },
+        {
+            "name": "山神",
+            "alias": ["山神爷"],
+            "species": "神祇",
+            "identity": ["当地山神"],
+            "personality": ["畏惧悟空", "尽责"],
+            "chapter_role": "配角",
+            "groups": ["天庭神祇"]
+        },
+        {
+            "name": "土地",
+            "alias": ["土地神"],
+            "species": "神祇",
+            "identity": ["当地土地"],
+            "personality": ["胆小", "提供信息"],
+            "chapter_role": "配角",
+            "groups": ["天庭神祇"]
+        },
+        {
+            "name": "白骨小妖",
+            "alias": ["小妖们"],
+            "species": "小妖",
+            "identity": ["白骨精部下"],
+            "personality": ["无描写"],
+            "chapter_role": "背景角色",
+            "groups": ["白骨洞势力"]
+        }
+    ],
+    "groups": [
+        {
+            "name": "取经团队",
+            "type": "核心团队",
+            "description": "奉佛祖旨意前往西天取经的师徒四人",
+            "members": ["唐僧", "孙悟空", "猪八戒", "沙僧"]
+        },
+        {
+            "name": "白骨洞势力",
+            "type": "妖怪阵营",
+            "description": "盘踞在白虎岭白骨洞的妖怪势力，以白骨精为首",
+            "members": ["白骨精", "白骨小妖"]
+        },
+        {
+            "name": "白骨精化身",
+            "type": "幻象分身",
+            "description": "白骨精为迷惑唐僧而变化的三个虚假人形",
+            "members": ["村姑", "老妇人", "老公公"]
+        },
+        {
+            "name": "天庭神祇",
+            "type": "神界势力",
+            "description": "受天庭管辖的地方神祇，负责守护一方土地山岭",
+            "members": ["山神", "土地"]
+        },
+        {
+            "name": "佛教体系",
+            "type": "宗教势力",
+            "description": "西天佛教相关人物",
+            "members": ["金蝉子", "唐僧"]
+        }
+    ],
+    "relationships": [
+        {
+            "character1": "唐僧",
+            "character2": "孙悟空",
+            "role_1_to_2": ["师傅"],
+            "role_2_to_1": ["徒弟"],
+            "description": "唐僧因白骨精三次变化而误认为悟空滥杀无辜，念紧箍咒并驱逐悟空",
+            "story_section": "悟空三打白骨精后被逐"
+        },
+        {
+            "character1": "唐僧",
+            "character2": "猪八戒",
+            "role_1_to_2": ["师傅"],
+            "role_2_to_1": ["徒弟"],
+            "description": "唐僧更信任八戒，八戒挑唆加重唐僧对悟空的误解",
+            "story_section": "八戒进谗言"
+        },
+        {
+            "character1": "唐僧",
+            "character2": "沙僧",
+            "role_1_to_2": ["师傅"],
+            "role_2_to_1": ["徒弟"],
+            "description": "沙僧中立，不参与构陷悟空",
+            "story_section": "悟空被逐时沙僧求情"
+        },
+        {
+            "character1": "孙悟空",
+            "character2": "白骨精",
+            "role_1_to_2": ["识破", "打死化身"],
+            "role_2_to_1": ["被识破", "化身被杀"],
+            "description": "悟空三次识破白骨精变化并打死其化身，但白骨精真身逃脱",
+            "story_section": "三打白骨精"
+        },
+        {
+            "character1": "孙悟空",
+            "character2": "村姑",
+            "role_1_to_2": ["打死"],
+            "role_2_to_1": ["被打死"],
+            "description": "悟空一打，打死白骨精变化的送饭村姑",
+            "story_section": "第一次变化"
+        },
+        {
+            "character1": "孙悟空",
+            "character2": "老妇人",
+            "role_1_to_2": ["打死"],
+            "role_2_to_1": ["被打死"],
+            "description": "悟空二打，打死白骨精变化的老妇人",
+            "story_section": "第二次变化"
+        },
+        {
+            "character1": "孙悟空",
+            "character2": "老公公",
+            "role_1_to_2": ["打死"],
+            "role_2_to_1": ["被打死"],
+            "description": "悟空三打，打死白骨精变化的老公公，白骨精真身化风逃走",
+            "story_section": "第三次变化"
+        },
+        {
+            "character1": "猪八戒",
+            "character2": "孙悟空",
+            "role_1_to_2": ["诬陷", "挑唆"],
+            "role_2_to_1": ["被诬陷"],
+            "description": "八戒因嫉妒悟空和贪吃，在唐僧面前诬陷悟空故意使障眼法欺骗师傅",
+            "story_section": "八戒进谗言"
+        },
+        {
+            "character1": "沙僧",
+            "character2": "孙悟空",
+            "role_1_to_2": ["求情"],
+            "role_2_to_1": ["被求情"],
+            "description": "沙僧为悟空求情，但唐僧不听",
+            "story_section": "悟空被逐"
+        },
+        {
+            "character1": "白骨精",
+            "character2": "唐僧",
+            "role_1_to_2": ["想吃其肉以求长生"],
+            "role_2_to_1": ["被盯上"],
+            "description": "白骨精听说吃了唐僧肉可长生不老，三次变化接近唐僧",
+            "story_section": "白骨精设局"
+        },
+        {
+            "character1": "白骨精",
+            "character2": "村姑",
+            "role_1_to_2": ["变化为"],
+            "role_2_to_1": ["原形是"],
+            "description": "白骨精变成送饭的村姑",
+            "story_section": "第一次变化"
+        },
+        {
+            "character1": "白骨精",
+            "character2": "老妇人",
+            "role_1_to_2": ["变化为"],
+            "role_2_to_1": ["原形是"],
+            "description": "白骨精变成寻女的老妇人",
+            "story_section": "第二次变化"
+        },
+        {
+            "character1": "白骨精",
+            "character2": "老公公",
+            "role_1_to_2": ["变化为"],
+            "role_2_to_1": ["原形是"],
+            "description": "白骨精变成念经的老公公",
+            "story_section": "第三次变化"
+        },
+        {
+            "character1": "山神",
+            "character2": "土地",
+            "role_1_to_2": ["同僚"],
+            "role_2_to_1": ["同僚"],
+            "description": "一同被悟空拘来作证白骨精的尸骸",
+            "story_section": "悟空求证"
+        },
+        {
+            "character1": "山神",
+            "character2": "孙悟空",
+            "role_1_to_2": ["听命于"],
+            "role_2_to_1": ["召唤"],
+            "description": "山神害怕悟空的金箍棒，被召来作证",
+            "story_section": "悟空求证"
+        },
+        {
+            "character1": "土地",
+            "character2": "孙悟空",
+            "role_1_to_2": ["听命于"],
+            "role_2_to_1": ["召唤"],
+            "description": "土地被召来作证，并证实白骨夫人的真身",
+            "story_section": "悟空求证"
+        },
+        {
+            "character1": "金蝉子",
+            "character2": "唐僧",
+            "role_1_to_2": ["前世"],
+            "role_2_to_1": ["转世"],
+            "description": "金蝉子是唐僧的前十世修行身，因轻慢佛法被贬下凡",
+            "story_section": "背景设定"
+        },
+        {
+            "character1": "白骨小妖",
+            "character2": "白骨精",
+            "role_1_to_2": ["下属"],
+            "role_2_to_1": ["大王"],
+            "description": "白骨小妖在山顶监视唐僧一行动向并向白骨精报信",
+            "story_section": "故事开头"
+        }
+    ]
+}
